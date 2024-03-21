@@ -34,7 +34,6 @@ export const Sidebar = ({ storageKey = "t-sidebar-state" }: SidebarProps) => {
       if (expanded[key]) {
         acc.push(key);
       }
-
       return acc;
     },
     []
